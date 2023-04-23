@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/FogMeta/boostd-data/client"
+	"github.com/FogMeta/boostd-data/model"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/container"
 	cl "github.com/docker/docker/client"
 	"github.com/docker/go-connections/nat"
-	"github.com/filecoin-project/boost/cmd/boostd-data/client"
-	"github.com/filecoin-project/boost/cmd/boostd-data/model"
 	"github.com/ipfs/go-cid"
 	"golang.org/x/net/context"
 )

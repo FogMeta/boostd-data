@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/filecoin-project/boost/cmd/boostd-data/client"
-	"github.com/filecoin-project/boost/cmd/boostd-data/model"
+	"github.com/FogMeta/boostd-data/client"
+	"github.com/FogMeta/boostd-data/model"
 	"github.com/filecoin-project/go-state-types/abi"
 	"github.com/google/uuid"
 	"github.com/ipfs/go-cid"
